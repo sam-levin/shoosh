@@ -15,10 +15,12 @@ function playShoosh(e) {
 function Main () {
     return (
         <section>
-            <h3>
-                "What if instead of saying sheeeesh we said shooooosh?"
-            </h3>
-            <button onClick={playShoosh} className="shooshBtn" id="main">Shooooooosh</button>
+            <div className="container">
+                <h3>
+                    "What if instead of saying sheeeesh... we said shooooosh?"
+                </h3>
+                <button onClick={playShoosh} className="shooshBtn" id="main">Shooooooosh</button>
+            </div>
         </section>
     )
 }

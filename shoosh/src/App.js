@@ -14,11 +14,10 @@ function App() {
   const [CurrentPerson, setCurrentPerson] = useState(person[0])
   return (
     <div>
-      <main>
+      <main className='container'>
         <h1 className='header'>
           Shoosh
         </h1>
-        <Nav></Nav>
         <Main></Main>
       </main>
     </div>
